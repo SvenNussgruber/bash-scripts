@@ -6,6 +6,8 @@
 # enabled  = 0
 # disabled = 1
 
+#source: https://askubuntu.com/questions/619875/disabling-intel-boost-in-ubuntu 
+
 if [[ -z $(which rdmsr) ]]; then
     echo "msr-tools is not installed. Run 'sudo apt-get install msr-tools' to install it." >&2
     exit 1
