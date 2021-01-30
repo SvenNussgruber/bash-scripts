@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #Command to check if enabled/disabled:
+# sudo modprobe msr
 # sudo rdmsr 0x1a0 -f 38:38
 # 
 # enabled  = 0
