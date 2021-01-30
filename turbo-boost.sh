@@ -1,5 +1,10 @@
 #!/bin/bash
+
+#Command to check if enabled/disabled:
 # sudo rdmsr 0x1a0 -f 38:38
+# 
+# enabled  = 0
+# disabled = 1
 
 if [[ -z $(which rdmsr) ]]; then
     echo "msr-tools is not installed. Run 'sudo apt-get install msr-tools' to install it." >&2
